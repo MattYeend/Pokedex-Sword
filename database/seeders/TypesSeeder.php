@@ -20,63 +20,63 @@ class TypesSeeder extends Seeder
 			],
 			[
 				'type' => 'Normal',
-				'colours' => NULL,
+				'colours' => '#A8A878',
 			],
 			[
 				'type' => 'Electric',
-				'colours' => NULL,
+				'colours' => '#F8D030',
 			],
 			[
 				'type' => 'Ice',
-				'colours' => NULL,
+				'colours' => '#98D8D8',
 			],
 			[
 				'type' => 'Fighting',
-				'colours' => NULL,
+				'colours' => '#C03028',
 			],
 			[
 				'type' => 'Poison',
-				'colours' => NULL,
+				'colours' => '#A040A0',
 			],
 			[
 				'type' => 'Ground',
-				'colours' => NULL,
+				'colours' => '#E0C068',
 			],
 			[
 				'type' => 'Flying',
-				'colours' => NULL,
+				'colours' => '#A890F0',
 			],
 			[
 				'type' => 'Psychic',
-				'colours' => NULL,
+				'colours' => '#F85888',
 			],
 			[
 				'type' => 'Rock',
-				'colours' => NULL,
+				'colours' => '#B8A038',
 			],
 			[
 				'type' => 'Ghost',
-				'colours' => NULL,
+				'colours' => '#705898',
 			],
 			[
 				'type' => 'Dark',
-				'colours' => NULL,
+				'colours' => '#705848',
 			],
 			[
 				'type' => 'Dragon',
-				'colours' => NULL,
+				'colours' => '#7038F8',
 			],
 			[
 				'type' => 'Steel',
-				'colours' => NULL,
+				'colours' => '#B8B8D0',
 			],
 			[
 				'type' => 'Fairy',
-				'colours' => NULL,
+				'colours' => '#FF85FD',
 			],
 			[
 				'type' => 'Fire',
-				'colours' => NULL,
+				'colours' => '#F08030',
 			],
 			[
 				'type' => 'Grass',
@@ -84,7 +84,7 @@ class TypesSeeder extends Seeder
 			],
 			[
 				'type' => 'Bug',
-				'colours' => NULL,
+				'colours' => '#A8B820',
 			],
 		]);
     }
