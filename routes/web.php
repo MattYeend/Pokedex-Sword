@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pokedex', 'PokeDexController@index')->name('pokedex.index');
+Route::get('/pokedex', 'App\Http\Controllers\PokeDexController@index')->name('pokedex.index');
 Route::post('/pokedex', 'PokeDexController@store')->name('pokedex.store');
 Route::get('/pokedex/{id}', 'PokeDexController@show')->name('pokedex.show');

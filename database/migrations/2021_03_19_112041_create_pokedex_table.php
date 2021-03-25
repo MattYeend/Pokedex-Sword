@@ -13,7 +13,7 @@ class CreatePokedexTable extends Migration
      */
     public function up()
     {
-        Schema::create('pokedex', function (Blueprint $table) {
+        Schema::create('pokedexes', function (Blueprint $table) {
             $table->bigInteger('id');
             $table->string('name');
             $table->string('type1');
@@ -37,6 +37,6 @@ class CreatePokedexTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pokedex');
+        Schema::dropIfExists('pokedexes');
     }
 }
