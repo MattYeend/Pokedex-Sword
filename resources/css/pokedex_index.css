@@ -1,0 +1,74 @@
+.wrapper {
+    padding: 15px 60px;
+}
+
+.filter-col {
+    width: 210px;
+    position: absolute
+}
+
+.row{
+    margin-left: 215px;
+}
+
+#searchName{
+    margin: 10px 0;
+}
+
+.pokemon-card {
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 0 15px lightgrey;
+    background-color: rgb(218, 218, 218);
+}
+
+.pokemon-card:hover {
+    box-shadow: -1px -1px 15px lightgrey;
+}
+
+.card-img-top {
+    position: relative;
+}
+
+.card-img-top:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    text-align:center; 
+    font-size:1rem;
+}
+
+.id-number{
+    position: absolute;
+    padding: 5px 5px
+}
+
+.pokeId{
+    color: black;
+}
+
+.pokeId:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .wrapper {
+        padding: 15px 40px;
+    }
+    
+    .filter-col {
+        width: 100%;
+        position: relative;
+    }
+
+    .row{
+        margin-left: 0;
+    }
+}
