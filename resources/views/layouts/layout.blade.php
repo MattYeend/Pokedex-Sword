@@ -10,12 +10,12 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="icon" href="{{ URL::asset('/css/pokedex-app-icon.png') }}" type="image/x-icon"/>
+        <link rel="icon" href="{{ URL::asset('../img/pokedex-app-icon.png') }}" type="image/x-icon"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0.5rem 60px">
-        <img src="/css/pokedex-app-icon.png" alt="pokedex-logo" style="width:40px; margin-right: 1rem">
+        <img src="../img/pokedex-app-icon.png" alt="pokedex-logo" style="width:40px; margin-right: 1rem">
         <a class="navbar-brand" href="{{ route('pokedex.index') }}">Pokedex</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
