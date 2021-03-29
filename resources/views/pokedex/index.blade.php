@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Styles -->
-<link rel="stylesheet" href="{{ assets('css/pokedex_index.css') }}">
+<link rel="stylesheet" href="{{ asset('css/pokedex_index.css') }}">
 
 <div class="wrapper">
   <div class="filter-col">
