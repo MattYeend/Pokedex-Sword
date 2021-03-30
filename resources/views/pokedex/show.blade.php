@@ -15,15 +15,15 @@
                 @else
                 <p class="id-number">#{{ $pokemon->id }}</p>
                 @endif
-                <img class="card-img-top" src="/images/{{ $pokemon->name }}.png" alt="{{ $pokemon->name }}">
+                <img class="card-img-top" src="/img/{{ $pokemon->name }}.png" alt="{{ $pokemon->name }}">
                 <div class="card-body">
                 
                 <h5 class="card-title">{{ $pokemon->name }}</h5>
-                <p class="card-text">Type 1 - {{ $pokemon['type 1'] }} </p>
+                <p class="card-text">Type 1 - {{ $pokemon['type_1'] }} </p>
                 @if($pokemon['type 2'] == '')
                 <p></p>
                 @else
-                    <p class="card-text">Type 2 - {{ $pokemon['type 2'] }} </p>
+                    <p class="card-text">Type 2 - {{ $pokemon['type_2'] }} </p>
                 @endif
                 </div>
             </div>
@@ -32,8 +32,8 @@
             <p>HP - {{ $pokemon->HP }}</p>
             <p>Attack - {{ $pokemon->attack }}</p>
             <p>Defense - {{ $pokemon->defense }}</p>
-            <p>Sp. Attack - {{ $pokemon->sp_atk }}</p>
-            <p>Sp. Defense - {{ $pokemon->sp_def }}</p>
+            <p>Sp. Attack - {{ $pokemon->sp_attack }}</p>
+            <p>Sp. Defense - {{ $pokemon->sp_defence }}</p>
             <p>Defense - {{ $pokemon->speed }}</p>
         </div>
         <div class="col-xl-3 col-md-3 col-0">
