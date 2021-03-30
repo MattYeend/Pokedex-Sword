@@ -19,11 +19,11 @@
                 <div class="card-body">
                 
                 <h5 class="card-title">{{ $pokemon->name }}</h5>
-                <p class="card-text">Type 1 - {{ $pokemon['type_1'] }} </p>
+                <p class="card-text">Type 1 - {{ $pokemon['type1'] }} </p>
                 @if($pokemon['type 2'] == '')
                 <p></p>
                 @else
-                    <p class="card-text">Type 2 - {{ $pokemon['type_2'] }} </p>
+                    <p class="card-text">Type 2 - {{ $pokemon['type2'] }} </p>
                 @endif
                 </div>
             </div>
@@ -31,7 +31,7 @@
         <div class="col-xl-6 col-md-6 col-12">
             <p>HP - {{ $pokemon->HP }}</p>
             <p>Attack - {{ $pokemon->attack }}</p>
-            <p>Defense - {{ $pokemon->defense }}</p>
+            <p>Defense - {{ $pokemon->defence }}</p>
             <p>Sp. Attack - {{ $pokemon->sp_attack }}</p>
             <p>Sp. Defense - {{ $pokemon->sp_defence }}</p>
             <p>Defense - {{ $pokemon->speed }}</p>
