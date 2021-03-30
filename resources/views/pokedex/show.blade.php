@@ -20,7 +20,7 @@
                 
                 <h5 class="card-title">{{ $pokemon->name }}</h5>
                 <p class="card-text">Type 1 - {{ $pokemon['type1'] }} </p>
-                @if($pokemon['type 2'] == '')
+                @if($pokemon['type2'] == '')
                     <p></p>
                 @else
                     <p class="card-text">Type 2 - {{ $pokemon['type2'] }} </p>
