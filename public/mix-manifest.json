@@ -1,4 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/pokedex_show.css": "/css/pokedex_show.css",
+    "/css/pokedex_index.css": "/css/pokedex_index.css",
     "/css/app.css": "/css/app.css"
 }
