@@ -2328,7 +2328,7 @@ class PokedexSeeder extends Seeder
 			],
 			[
 				'id' => 166,
-				'name' => 'Dribur',
+				'name' => 'Drilbur',
 				'type1' => 'Ground',
 				'type2' => '',
 				'HP' => 60,
