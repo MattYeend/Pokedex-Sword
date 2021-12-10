@@ -858,7 +858,7 @@ class PokedexSeeder extends Seeder
         	],
         	[
         		'id' => 61,
-        	    'name' => 'Roesrade',
+        	    'name' => 'Roserade',
     	        'type1' => 'Grass',
 	            'type2' => 'Poison',
             	'HP' => 60,
@@ -5338,7 +5338,7 @@ class PokedexSeeder extends Seeder
 			],
 			[
 				'id' => 381,
-				'name' => 'Type: Null',
+				'name' => 'Type Null',
 				'type1' => 'Normal',
 				'type2' => '',
 				'HP' => 95,
